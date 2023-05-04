@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-29T17:02:38Z" name="test.com.CalculatorTest" finished-at="2023-04-29T17:02:38Z" duration-ms="34">
+  <suite started-at="2023-05-04T14:31:29Z" name="test.com.CalculatorTest" finished-at="2023-05-04T14:31:29Z" duration-ms="29">
     <groups>
     </groups>
-    <test started-at="2023-04-29T17:02:38Z" name="Command line test" finished-at="2023-04-29T17:02:38Z" duration-ms="34">
+    <test started-at="2023-05-04T14:31:29Z" name="Command line test" finished-at="2023-05-04T14:31:29Z" duration-ms="29">
       <class name="test.com.CalculatorTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="setUpClass" finished-at="2023-04-29T12:02:38Z" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="setUpClass" finished-at="2023-05-04T09:31:29Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="setUpMethod" finished-at="2023-04-29T12:02:38Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="setUpMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testAdd()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="testAdd" finished-at="2023-04-29T12:02:38Z" duration-ms="4" status="PASS">
+        <test-method signature="testAdd()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="testAdd" finished-at="2023-05-04T09:31:29Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="tearDownMethod" finished-at="2023-04-29T12:02:38Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="tearDownMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="setUpMethod" finished-at="2023-04-29T12:02:38Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="setUpMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testMultiply()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="testMultiply" finished-at="2023-04-29T12:02:38Z" duration-ms="1" status="PASS">
+        <test-method signature="testDivide()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="testDivide" finished-at="2023-05-04T09:31:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultiply -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="tearDownClass" finished-at="2023-04-29T12:02:38Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@76b0bfab]" started-at="2023-04-29T12:02:38Z" name="tearDownMethod" finished-at="2023-04-29T12:02:38Z" duration-ms="0" status="PASS">
+        </test-method> <!-- testDivide -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="tearDownMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
+        <test-method signature="testMultiply()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="testMultiply" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="setUpMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="tearDownMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testSub()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="testSub" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="setUpMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="tearDownMethod" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.CalculatorTest@3043fe0e]" started-at="2023-05-04T09:31:29Z" name="tearDownClass" finished-at="2023-05-04T09:31:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
       </class> <!-- test.com.CalculatorTest -->
     </test> <!-- Command line test -->
   </suite> <!-- test.com.CalculatorTest -->

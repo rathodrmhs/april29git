@@ -45,12 +45,20 @@ public class CalculatorTest {
     @Test
     public void testAdd() {
         assertEquals(calc.add(2, 4), 6);
-
     }
 
     @Test
+    public void testSub(){
+        assertEquals(calc.sub(27, 5), 22);
+    }
+    
+    @Test
     public void testMultiply() {
-
+        assertEquals(calc.mul(4, 3),12);
     }
 
+    @Test
+    public void testDivide(){
+        assertEquals(calc.divide(15, 3), 5.0);
+    }
 }

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -106,7 +106,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test.com.CalculatorTest" title="test.com.CalculatorTest" class="method navigator-link" hash-for-method="testDivide">testDivide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-test.com.CalculatorTest" title="test.com.CalculatorTest" class="method navigator-link" hash-for-method="testMultiply">testMultiply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test.com.CalculatorTest" title="test.com.CalculatorTest" class="method navigator-link" hash-for-method="testSub">testSub</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test.com.CalculatorTest -->
@@ -136,9 +146,23 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testDivide">
+                  </a> <!-- testDivide -->
+                  <span class="method-name">testDivide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testMultiply">
                   </a> <!-- testMultiply -->
                   <span class="method-name">testMultiply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSub">
+                  </a> <!-- testSub -->
+                  <span class="method-name">testSub</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,20 +218,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAdd')
 data.setCell(0, 2, 'test.com.CalculatorTest')
-data.setCell(0, 3, 4);
+data.setCell(0, 3, 2);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMultiply')
+data.setCell(1, 1, 'testDivide')
 data.setCell(1, 2, 'test.com.CalculatorTest')
 data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMultiply')
+data.setCell(2, 2, 'test.com.CalculatorTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSub')
+data.setCell(3, 2, 'test.com.CalculatorTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['test.com.CalculatorTest']= { tableData: data, tableDiv: 'times-div-test.com.CalculatorTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 ms</span>
+              <span class="suite-total-time">Total running time: 3 ms</span>
               <div id="times-div-test.com.CalculatorTest">
               </div> <!-- times-div-test.com.CalculatorTest -->
             </div> <!-- times-div -->
@@ -240,32 +272,56 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAdd</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownMethod</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpMethod</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <span class="method-name">testDivide</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
                 <span class="method-name">testMultiply</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSub</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownMethod</span>
-                <span class="method-start">24 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
